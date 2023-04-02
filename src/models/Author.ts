@@ -18,4 +18,4 @@ const AuthorSchema : Schema = new Schema (
     }
 )
 
-export default mongoose.model<IAuthorModel>('Author',AuthorSchema)
+export default mongoose.model<IAuthorModel>('author',AuthorSchema)

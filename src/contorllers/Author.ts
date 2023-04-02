@@ -66,4 +66,4 @@ const deleteAuthor = (req: Request, res: Response, next: NextFunction) => {
 
 };
 
-export default {createAuthor , readAuthor , readAll , updateAuthor , deleteAuthor};
+export default {createAuthor , readAuthor , readAll , updateAuthor,deleteAuthor};
